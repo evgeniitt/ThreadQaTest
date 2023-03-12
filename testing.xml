@@ -1,0 +1,10 @@
+<suite name="Parent_Suite">
+    <listeners>
+        <listener class-name="listeners.MyListeners"/>
+    </listeners>
+    <test name="ItestReporter">
+        <classes>
+            <class name="threadqa.ui.TestPage" />
+        </classes>
+    </test>
+</suite>
